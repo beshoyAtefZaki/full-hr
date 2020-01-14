@@ -1,0 +1,46 @@
+{
+ "creation": "2019-12-26 11:23:45.040834",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "penalty_type",
+  "apply_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "penalty_type",
+   "fieldtype": "Link",
+   "label": "Penalty Type",
+   "options": "Penalty Type"
+  },
+  {
+   "fieldname": "apply_date",
+   "fieldtype": "Date",
+   "label": "Apply Date"
+  }
+ ],
+ "modified": "2019-12-26 11:23:45.040834",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Employee Penalty",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

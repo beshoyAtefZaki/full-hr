@@ -1,0 +1,52 @@
+{
+ "creation": "2019-12-26 12:06:36.689946",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "injury_type",
+  "with_indemnity",
+  "discount_percentage"
+ ],
+ "fields": [
+  {
+   "fieldname": "injury_type",
+   "fieldtype": "Data",
+   "label": "Injury Type"
+  },
+  {
+   "default": "0",
+   "fieldname": "with_indemnity",
+   "fieldtype": "Check",
+   "label": "With Indemnity "
+  },
+  {
+   "fieldname": "discount_percentage",
+   "fieldtype": "Percent",
+   "label": "Discount Percentage"
+  }
+ ],
+ "modified": "2019-12-26 12:06:36.689946",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Injury Type",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

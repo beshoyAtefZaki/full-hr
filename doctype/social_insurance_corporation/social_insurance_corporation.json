@@ -1,0 +1,75 @@
+{
+ "creation": "2019-12-26 10:53:04.778038",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "social_insurance_corporation",
+  "address",
+  "mobile",
+  "column_break_4",
+  "telephone",
+  "staus",
+  "responsible"
+ ],
+ "fields": [
+  {
+   "fieldname": "social_insurance_corporation",
+   "fieldtype": "Data",
+   "label": "Social Insurance Corporation"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "staus",
+   "fieldtype": "Select",
+   "label": "Staus",
+   "options": "Active\ninactive"
+  },
+  {
+   "fieldname": "responsible",
+   "fieldtype": "Data",
+   "label": "Responsible"
+  }
+ ],
+ "modified": "2019-12-26 10:53:55.284498",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Social Insurance Corporation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

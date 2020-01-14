@@ -1,0 +1,57 @@
+{
+ "creation": "2019-12-26 12:13:00.552912",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reason",
+  "start_from",
+  "end_date",
+  "cut_percentage"
+ ],
+ "fields": [
+  {
+   "fieldname": "reason",
+   "fieldtype": "Data",
+   "label": "Reason"
+  },
+  {
+   "fieldname": "start_from",
+   "fieldtype": "Date",
+   "label": "Start From"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "cut_percentage",
+   "fieldtype": "Float",
+   "label": "Cut Percentage"
+  }
+ ],
+ "modified": "2019-12-26 12:13:00.552912",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Stop Working Data",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

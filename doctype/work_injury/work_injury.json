@@ -1,0 +1,82 @@
+{
+ "creation": "2019-12-26 12:09:29.159018",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "injury_date",
+  "injury_location",
+  "injury_type",
+  "treatment_start_date",
+  "treatment_end_date",
+  "treatment_location",
+  "description",
+  "document"
+ ],
+ "fields": [
+  {
+   "fieldname": "injury_date",
+   "fieldtype": "Date",
+   "label": "Injury Date"
+  },
+  {
+   "fieldname": "injury_location",
+   "fieldtype": "Data",
+   "label": "Injury Location"
+  },
+  {
+   "fieldname": "injury_type",
+   "fieldtype": "Link",
+   "label": "Injury Type",
+   "options": "Injury Type"
+  },
+  {
+   "fieldname": "treatment_start_date",
+   "fieldtype": "Date",
+   "label": "Treatment Start Date"
+  },
+  {
+   "fieldname": "treatment_end_date",
+   "fieldtype": "Date",
+   "label": "Treatment End Date"
+  },
+  {
+   "fieldname": "treatment_location",
+   "fieldtype": "Data",
+   "label": "Treatment Location"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "document",
+   "fieldtype": "Attach",
+   "label": "Document"
+  }
+ ],
+ "modified": "2019-12-26 12:09:29.159018",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Work Injury",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
